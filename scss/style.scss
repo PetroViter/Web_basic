@@ -1,0 +1,24 @@
+@import "_variables";
+@import "./bootstrap/bootstrap.scss";
+@import "header";
+@import "spacer";
+@import "typografy";
+@import "main";
+@import "footer";
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    
+  }
+
+  .btn-border {
+    border: none;
+  }
+
+ 
