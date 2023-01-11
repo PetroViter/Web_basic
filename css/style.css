@@ -4093,14 +4093,14 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: white;
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFFFFF' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .card {
@@ -11087,6 +11087,41 @@ a svg:hover #scroll {
 
 .bluenumber {
   color: #46466E;
+}
+
+.about-opacity-bg {
+  background-color: rgb(245, 245, 250);
+}
+
+@media (min-width: 768px) {
+  .about-opacity-bg {
+    background-color: rgba(245, 245, 250, 0);
+  }
+}
+.header-a {
+  background-color: #FFFFFF;
+}
+
+.about-hover {
+  color: #B3B3BA;
+}
+.about-hover :hover {
+  color: #FFFFFF;
+}
+
+.navbar-toggler-dark {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: url("../images/burger_line_list_menu_nav_navigation_option_icon_123231.svg");
+}
+
+nav div .offcanvas-withe {
+  background-color: #FFFFFF;
 }
 
 img {

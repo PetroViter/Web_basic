@@ -62,6 +62,9 @@ $nav-link-font-size: 16px;
 
 $offcanvas-horizontal-width: 100%;
 $offcanvas-bg-color: rgb(53, 30, 75);
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-color: white;
+$navbar-dark-toggler-border-color: rgba(255, 255, 255, 0);
 
 $nav-tabs-link-active-bg:  rgba(28,28,28,0);
 $nav-link-color:  white;
