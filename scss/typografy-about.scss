@@ -1,0 +1,90 @@
+.fsize36 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;   
+    text-align: center;
+    padding-left: 8px;   
+}
+
+.about-team {    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    padding: 35px 0 35px 0;
+}
+
+@media (min-width: 728px) and (max-width: 1023px)  {
+    .about-team  {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 56px;        
+        text-align: center;
+        letter-spacing: 63px;
+        text-transform: uppercase;     
+        color: #FFFFFF;        
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8); 
+        padding: 89px 0 89px 0;  
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px)  {
+    .about-team  {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 105px;       
+        text-align: center;
+        letter-spacing: 63px;
+        text-transform: uppercase;    
+        color: #FFFFFF;
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+        padding: 103px 0 103px 0;  
+    }
+}
+@media (min-width: 1440px) and (max-width: 1919px)  {
+    .about-team  {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 117px;
+        text-align: center;
+        letter-spacing: 63px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+        padding: 163px 0 163px 0;  
+    }
+}
+@media (min-width: 1920px)  {
+    .about-team  {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 117px;    
+        text-align: center;
+        letter-spacing: 63px;
+        text-transform: uppercase;       
+        color: #FFFFFF;        
+        opacity: 0.8;
+        text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+        padding: 236px 0 236px 0;  
+    }
+}

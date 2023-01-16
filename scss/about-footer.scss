@@ -1,0 +1,15 @@
+.block-size {
+    min-width: 255px;
+    min-height: 90px;
+    background-color: white;       
+}
+
+.block-size_md {
+    height: 90px;
+}
+
+@media (min-width: 1024px) {
+    .block-size_md {
+        height: 110px;
+    }
+}

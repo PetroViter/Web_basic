@@ -1,11 +1,13 @@
 @import "_variables";
 @import "./bootstrap/bootstrap.scss";
 @import "header";
-@import "spacer";
 @import "typografy";
 @import "main";
 @import "footer";
 @import "about-header";
+@import "typografy-about";
+@import "about-main";
+@import "about-footer";
 
 
 img {

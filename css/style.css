@@ -10768,9 +10768,20 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  margin-bottom: 50px;
   border-radius: 0px 0px 12px 12px;
-  box-shadow: 0px 33px 0px -20px rgb(202, 202, 219);
+}
+
+.box-shadow__20 {
+  height: 10px;
+  background: #CACADB;
+  border-radius: 0px 0px 12px 12px;
+  margin: 0 20px 0 20px;
+}
+.box-shadow__40 {
+  height: 10px;
+  background: #E7E7F2;
+  border-radius: 0px 0px 12px 12px;
+  margin: 0 40px 50px 40px;
 }
 
 @media (min-width: 728px) and (max-width: 1023px) {
@@ -10779,9 +10790,7 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    margin-bottom: 50px;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 0px 33px 0px -20px rgb(202, 202, 219);
   }
 }
 @media (min-width: 1024px) {
@@ -10790,9 +10799,7 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
-    margin-bottom: 50px;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 0px 33px 0px -20px rgb(202, 202, 219);
   }
 }
 @media (min-width: 1440px) {
@@ -10801,9 +10808,7 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
-    margin-bottom: 50px;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 0px 33px 0px -20px rgb(202, 202, 219);
   }
 }
 @media (min-width: 1920px) {
@@ -10812,9 +10817,7 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-position: top;
     background-size: auto;
-    margin-bottom: 50px;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 0px 33px 0px -20px rgb(202, 202, 219);
   }
 }
 .opacity-bg {
@@ -10852,7 +10855,7 @@ textarea.form-control-lg {
 @media (min-width: 1440px) and (max-width: 1919px) {
   .h1-pad {
     padding-top: 220px;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
   }
 }
 @media (min-width: 1920px) {
@@ -10861,7 +10864,7 @@ textarea.form-control-lg {
     padding-bottom: 370px;
   }
 }
-a svg:hover #scroll {
+a svg:hover .scrl {
   stroke: #F0145A;
   stroke-width: 4;
 }
@@ -11087,6 +11090,7 @@ a svg:hover #scroll {
 
 .bluenumber {
   color: #46466E;
+  white-space: nowrap;
 }
 
 .about-opacity-bg {
@@ -11124,6 +11128,121 @@ nav div .offcanvas-withe {
   background-color: #FFFFFF;
 }
 
+.fsize36 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  padding-left: 8px;
+}
+
+.about-team {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  padding: 35px 0 35px 0;
+}
+
+@media (min-width: 728px) and (max-width: 1023px) {
+  .about-team {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    padding: 89px 0 89px 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about-team {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 105px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    padding: 103px 0 103px 0;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .about-team {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    padding: 163px 0 163px 0;
+  }
+}
+@media (min-width: 1920px) {
+  .about-team {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+    padding: 236px 0 236px 0;
+  }
+}
+.border-about__left {
+  border-left: 4px solid #E6E6F0;
+}
+
+.bg-image__about {
+  background-image: url("../images/Team-BG.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.block-size {
+  min-width: 255px;
+  min-height: 90px;
+  background-color: white;
+}
+
+.block-size_md {
+  height: 90px;
+}
+
+@media (min-width: 1024px) {
+  .block-size_md {
+    height: 110px;
+  }
+}
 img {
   max-width: 100%;
   max-height: 100%;

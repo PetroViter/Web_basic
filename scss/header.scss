@@ -3,20 +3,35 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    margin-bottom: 50px;
+    
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 0px 33px 0px -20px rgba(202, 202, 219, 1);               
+                  
 }
+
+.box-shadow {    
+    &__20 {
+        height: 10px;
+        background: #CACADB;
+        border-radius: 0px 0px 12px 12px;
+        margin: 0 20px 0 20px;
+    }
+    &__40 {
+        height: 10px;
+        background: #E7E7F2;
+        border-radius: 0px 0px 12px 12px;
+        margin: 0 40px 50px 40px;
+    }
+}
+
+
 
 @media (min-width: 728px) and (max-width: 1023px)  {
     .header  {
         background-image: url(../images/h-big.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: contain;
-        margin-bottom: 50px;
-        border-radius: 0px 0px 12px 12px;
-        box-shadow: 0px 33px 0px -20px rgba(202, 202, 219, 1);    
+        background-size: contain;        
+        border-radius: 0px 0px 12px 12px;          
     }
 }
 
@@ -25,10 +40,8 @@
         background-image: url(../images/h-big1.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: auto;
-        margin-bottom: 50px;
-        border-radius: 0px 0px 12px 12px;
-        box-shadow: 0px 33px 0px -20px rgba(202, 202, 219, 1);    
+        background-size: auto;        
+        border-radius: 0px 0px 12px 12px;           
     }
 }
 
@@ -37,10 +50,8 @@
         background-image: url(../images/h-1440.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: auto;
-        margin-bottom: 50px;
-        border-radius: 0px 0px 12px 12px;
-        box-shadow: 0px 33px 0px -20px rgba(202, 202, 219, 1);    
+        background-size: auto;        
+        border-radius: 0px 0px 12px 12px;           
     }
 }
 @media (min-width: 1920px) {
@@ -48,10 +59,8 @@
         background-image: url(../images/h-big1920.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         background-repeat: no-repeat;
         background-position: top;
-        background-size: auto;
-        margin-bottom: 50px;
-        border-radius: 0px 0px 12px 12px;
-        box-shadow: 0px 33px 0px -20px rgba(202, 202, 219, 1);    
+        background-size: auto;        
+        border-radius: 0px 0px 12px 12px;           
     }
 }
 .opacity-bg {    
@@ -91,7 +100,7 @@
 @media (min-width: 1440px) and (max-width: 1919px) {
     .h1-pad {
         padding-top: 220px;
-        padding-bottom: 250px;
+        padding-bottom: 300px;
     }
 }
 @media (min-width: 1920px) {
@@ -102,7 +111,7 @@
 }
 
 //якорь
-a svg:hover #scroll {
+a svg:hover .scrl {
     stroke: #F0145A;
     stroke-width: 4;
     
